@@ -1,6 +1,11 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 console.log(`Hello World`);
-document.getElementById('counter')
+
+
+ let counter = document.getElementById('counter').value
+ for (let i = 0; i < 100; i++) {
+   counter = i
+ }
 
 
 
