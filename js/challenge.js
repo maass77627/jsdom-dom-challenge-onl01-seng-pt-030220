@@ -3,7 +3,7 @@ console.log(`Hello World`);
 
 
  let counter = document.getElementById('counter').value
- let counter = 0; 
+ let counter = 0;
 
  const timer = setInterval(() => {
    counter += 1;
