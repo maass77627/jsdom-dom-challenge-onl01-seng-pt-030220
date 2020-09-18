@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-console.log("Hello World")
+console.log("Hello World");
 
 
 
 
 
-}
+});
