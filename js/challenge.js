@@ -11,8 +11,4 @@ console.log(`Hello World`);
      clearInterval(timer);
    }
  }, 1000);
-
-
-
-
 });
