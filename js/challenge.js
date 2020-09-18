@@ -5,7 +5,7 @@ console.log(`Hello World`);
  let counter = document.getElementById('counter').innerText
  let counter = 0;
 
- const timer = setInterval()) => {
+ const timer = setInterval(function()) => {
    counter += 1;
    if (counter === 20) {
      clearInterval(timer);
