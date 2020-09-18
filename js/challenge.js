@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 console.log(`Hello World`);
 
 
- let counter = document.getElementById('counter').value
+ let counter = document.getElementById('counter').innerText
  let counter = 0;
 
  const timer = setInterval() => {
