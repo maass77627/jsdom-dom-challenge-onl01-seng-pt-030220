@@ -8,9 +8,9 @@ console.log(`Hello World`);
  const timer = setInterval(() => {
    counter += 1;
    if (counter === 20) {
-     clearInterval(timer)
+     clearInterval(timer);
    }
- }
+ }, 1000);
 
 
 
