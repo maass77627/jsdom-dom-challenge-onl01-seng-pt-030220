@@ -2,9 +2,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 console.log(`Hello World`);
 
 
- let counter = document.getElementById('counter')
- for (let i = 0; i < 100; i++) {
-   counter.value = i;
+ let counter = document.getElementById('counter').value
+ let counter = 0; 
+
+ const timer = setInterval(() => {
+   counter += 1;
+   if (counter === 20) {
+     clearInterval(timer)
+   }
  }
 
 
